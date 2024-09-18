@@ -1,0 +1,35 @@
+.investor-list-page {
+  padding: 20px;
+}
+
+.investor-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.investor-table th,
+.investor-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.investor-table th {
+  background-color: #f4f4f4;
+  text-align: left;
+}
+
+.investor-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+  /* Adds alternating row colors */
+}
+
+.investor-table td a {
+  color: #2e6ee1;
+  text-decoration: none;
+  /* Removes the underline from links */
+}
+
+.investor-table td:last-child {
+  color: rgb(3, 8, 226);
+  /* font-weight: bold; */
+}

@@ -1,0 +1,21 @@
+.filter-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filter-button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  min-width: 100px;
+  background-color: #fff;
+  font-weight: normal;
+}
+
+.filter-button.selected {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
